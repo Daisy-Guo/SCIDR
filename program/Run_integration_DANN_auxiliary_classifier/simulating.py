@@ -10,6 +10,7 @@ from pandas import Series,DataFrame
 import pandas as pd
 import os
 from copy import deepcopy
+from DANN_auxiliary_classifier.construct_network_2batch import DANN
 
 k=1
 data=np.loadtxt("/data02/tguo/batch_effect/simulate/dataset4-2_1same_group"+str(k)+"_data.txt",dtype=np.float64)
