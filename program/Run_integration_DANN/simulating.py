@@ -12,6 +12,7 @@ from copy import deepcopy
 import tensorflow as tf
 import keras
 from keras.callbacks import Callback,EarlyStopping
+from DANN.construct_network_2batch import VAE
 
 class History(Callback):
     def on_train_begin(self, logs={}):
