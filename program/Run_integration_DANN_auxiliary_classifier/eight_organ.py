@@ -10,6 +10,7 @@ from pandas import Series,DataFrame
 import pandas as pd
 import os
 from copy import deepcopy
+from DANN_auxiliary_classifier.construct_network_multiplebatch import DANN
 
 data1=np.loadtxt("/data02/tguo/batch_effect/kidney_mat.txt",dtype=np.float64)
 data2=np.loadtxt("/data02/tguo/batch_effect/liver_mat.txt",dtype=np.float64)
