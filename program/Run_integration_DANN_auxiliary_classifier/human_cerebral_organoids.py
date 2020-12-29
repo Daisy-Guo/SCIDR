@@ -10,6 +10,7 @@ from pandas import Series,DataFrame
 import pandas as pd
 import os
 from copy import deepcopy
+from DANN_auxiliary_classifier.construct_network_multiplebatch import DANN
 
 data=np.loadtxt("/data02/tguo/batch_effect/harmony_data/cerebral_organoids_Kanton_2019_2m/mat.txt",dtype=np.float64)
 celltype=[]
