@@ -10,6 +10,9 @@ from pandas import Series,DataFrame
 import pandas as pd
 import os
 from copy import deepcopy
+from DANN_auxiliary_classifier.construct_network_multiplebatch import DANN
+
+
 
 types='allsame'
 data=np.loadtxt("/data02/tguo/batch_effect/PBMC/9tech_count_"+str(types)+".txt",dtype=np.float64)
