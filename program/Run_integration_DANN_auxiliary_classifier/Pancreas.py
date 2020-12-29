@@ -10,6 +10,8 @@ from pandas import Series,DataFrame
 import pandas as pd
 import os
 from copy import deepcopy
+from DANN_auxiliary_classifier.construct_network_2batch import DANN
+
 
 types='8same-1'
 data=np.loadtxt("/data02/tguo/batch_effect/Pancreas/baron_muraro_"+str(types)+"_data.txt", dtype=np.float64)
